@@ -1,4 +1,4 @@
-[
+const db = [
   {
     "id": 1,
     "viaggio": "Italia",
@@ -234,5 +234,125 @@
         "immagine": "https://example.com/carcassonne.jpg"
       }
     ]
+  },
+  {
+    "id": 3,
+    "viaggio": "Germania",
+    "inizio": "2022-01-01",
+    "fine": "2022-12-31",
+    "luoghi": [
+      {
+        "nome": "Porta di Brandeburgo",
+        "città": "Berlino",
+        "descrizione": "La Porta di Brandeburgo è uno dei monumenti più iconici di Berlino, simbolo della riunificazione tedesca.",
+        "categoria": "Storico",
+        "coordinate": {
+          "latitudine": 52.5163,
+          "longitudine": 13.3777
+        },
+        "immagine": "https://example.com/porta_brandeburgo.jpg"
+      },
+      {
+        "nome": "Duomo di Colonia",
+        "città": "Colonia",
+        "descrizione": "Il Duomo di Colonia è una delle cattedrali gotiche più grandi e famose del mondo, patrimonio mondiale dell'UNESCO.",
+        "categoria": "Religioso",
+        "coordinate": {
+          "latitudine": 50.9413,
+          "longitudine": 6.9582
+        },
+        "immagine": "https://example.com/duomo_colonia.jpg"
+      },
+      {
+        "nome": "Castello di Neuschwanstein",
+        "città": "Baviera",
+        "descrizione": "Il Castello di Neuschwanstein è un castello da fiaba situato nelle Alpi Bavaresi, ispirazione per il castello della Bella Addormentata della Disney.",
+        "categoria": "Storico",
+        "coordinate": {
+          "latitudine": 47.5576,
+          "longitudine": 10.7498
+        },
+        "immagine": "https://example.com/castello_neuschwanstein.jpg"
+      },
+      {
+        "nome": "Foresta Nera",
+        "città": "Baden-Württemberg",
+        "descrizione": "La Foresta Nera è una regione montuosa famosa per i suoi paesaggi pittoreschi, le foreste dense e i villaggi tradizionali.",
+        "categoria": "Paesaggistico",
+        "coordinate": {
+          "latitudine": 48.0,
+          "longitudine": 8.0
+        },
+        "immagine": "https://example.com/foresta_nera.jpg"
+      },
+      {
+        "nome": "Miniatur Wunderland",
+        "città": "Amburgo",
+        "descrizione": "Miniatur Wunderland è il più grande modello ferroviario del mondo, con dettagliate riproduzioni di città e paesaggi.",
+        "categoria": "Culturale",
+        "coordinate": {
+          "latitudine": 53.5436,
+          "longitudine": 9.9886
+        },
+        "immagine": "https://example.com/miniatur_wunderland.jpg"
+      },
+      {
+        "nome": "Valle del Reno",
+        "città": "Renania",
+        "descrizione": "La Valle del Reno è famosa per i suoi vigneti, i castelli medievali e i pittoreschi villaggi lungo il fiume Reno.",
+        "categoria": "Paesaggistico",
+        "coordinate": {
+          "latitudine": 50.0,
+          "longitudine": 7.0
+        },
+        "immagine": "https://example.com/valle_reno.jpg"
+      },
+      {
+        "nome": "Isola dei Musei",
+        "città": "Berlino",
+        "descrizione": "L'Isola dei Musei è un complesso di cinque musei di fama mondiale situati su un'isola nel fiume Sprea a Berlino.",
+        "categoria": "Culturale",
+        "coordinate": {
+          "latitudine": 52.5169,
+          "longitudine": 13.401
+        },
+        "immagine": "https://example.com/isola_musei.jpg"
+      },
+      {
+        "nome": "Marienplatz",
+        "città": "Monaco di Baviera",
+        "descrizione": "Marienplatz è la piazza centrale di Monaco di Baviera, famosa per il municipio neogotico e il carillon.",
+        "categoria": "Storico",
+        "coordinate": {
+          "latitudine": 48.1374,
+          "longitudine": 11.5755
+        },
+        "immagine": "https://example.com/marienplatz.jpg"
+      },
+      {
+        "nome": "Zugspitze",
+        "città": "Baviera",
+        "descrizione": "La Zugspitze è la montagna più alta della Germania, situata nelle Alpi Bavaresi, famosa per le sue piste da sci e i panorami mozzafiato.",
+        "categoria": "Paesaggistico",
+        "coordinate": {
+          "latitudine": 47.421,
+          "longitudine": 10.9853
+        },
+        "immagine": "https://example.com/zugspitze.jpg"
+      },
+      {
+        "nome": "Frauenkirche",
+        "città": "Dresda",
+        "descrizione": "La Frauenkirche è una chiesa luterana ricostruita dopo la Seconda Guerra Mondiale, simbolo della riconciliazione e della pace.",
+        "categoria": "Religioso",
+        "coordinate": {
+          "latitudine": 51.051,
+          "longitudine": 13.7416
+        },
+        "immagine": "https://example.com/frauenkirche.jpg"
+      }
+    ]
   }
 ]
+
+export default db
