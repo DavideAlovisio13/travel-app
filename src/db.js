@@ -14,7 +14,7 @@ const db = [
           "latitudine": 41.8902,
           "longitudine": 12.4922
         },
-        "immagine": "https://example.com/colosseo.jpg"
+        "immagine": "/images/Italia/Colosseo.jpg"
       },
       {
         "nome": "Duomo di Firenze",
